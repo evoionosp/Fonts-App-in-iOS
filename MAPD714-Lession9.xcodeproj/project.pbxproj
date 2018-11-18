@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		52D2D17E219E48A300AB72D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D2D17D219E48A300AB72D0 /* AppDelegate.swift */; };
-		52D2D180219E48A300AB72D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D2D17F219E48A300AB72D0 /* ViewController.swift */; };
 		52D2D183219E48A300AB72D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D2D181219E48A300AB72D0 /* Main.storyboard */; };
 		52D2D185219E48A400AB72D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D2D184219E48A400AB72D0 /* Assets.xcassets */; };
 		52D2D188219E48A400AB72D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D2D186219E48A400AB72D0 /* LaunchScreen.storyboard */; };
+		52D2D190219E4CE200AB72D0 /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D2D18F219E4CE200AB72D0 /* FavoritesList.swift */; };
+		52D2D192219E511400AB72D0 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D2D191219E511400AB72D0 /* RootViewController.swift */; };
+		52D2D194219E5DC900AB72D0 /* FontListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D2D193219E5DC900AB72D0 /* FontListViewController.swift */; };
+		52EA36A221A075FE0033D49A /* FontSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EA36A121A075FE0033D49A /* FontSizesViewController.swift */; };
+		52EA36A421A07B250033D49A /* FontInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EA36A321A07B250033D49A /* FontInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52D2D17A219E48A300AB72D0 /* MAPD714-Lession9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD714-Lession9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D2D17D219E48A300AB72D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52D2D17F219E48A300AB72D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52D2D182219E48A300AB72D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52D2D184219E48A400AB72D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52D2D187219E48A400AB72D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52D2D189219E48A400AB72D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D2D18F219E4CE200AB72D0 /* FavoritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
+		52D2D191219E511400AB72D0 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		52D2D193219E5DC900AB72D0 /* FontListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontListViewController.swift; sourceTree = "<group>"; };
+		52EA36A121A075FE0033D49A /* FontSizesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizesViewController.swift; sourceTree = "<group>"; };
+		52EA36A321A07B250033D49A /* FontInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				52D2D17D219E48A300AB72D0 /* AppDelegate.swift */,
-				52D2D17F219E48A300AB72D0 /* ViewController.swift */,
 				52D2D181219E48A300AB72D0 /* Main.storyboard */,
 				52D2D184219E48A400AB72D0 /* Assets.xcassets */,
 				52D2D186219E48A400AB72D0 /* LaunchScreen.storyboard */,
 				52D2D189219E48A400AB72D0 /* Info.plist */,
+				52D2D18F219E4CE200AB72D0 /* FavoritesList.swift */,
+				52D2D191219E511400AB72D0 /* RootViewController.swift */,
+				52D2D193219E5DC900AB72D0 /* FontListViewController.swift */,
+				52EA36A121A075FE0033D49A /* FontSizesViewController.swift */,
+				52EA36A321A07B250033D49A /* FontInfoViewController.swift */,
 			);
 			path = "MAPD714-Lession9";
 			sourceTree = "<group>";
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52D2D180219E48A300AB72D0 /* ViewController.swift in Sources */,
+				52EA36A221A075FE0033D49A /* FontSizesViewController.swift in Sources */,
+				52D2D190219E4CE200AB72D0 /* FavoritesList.swift in Sources */,
+				52D2D194219E5DC900AB72D0 /* FontListViewController.swift in Sources */,
+				52EA36A421A07B250033D49A /* FontInfoViewController.swift in Sources */,
 				52D2D17E219E48A300AB72D0 /* AppDelegate.swift in Sources */,
+				52D2D192219E511400AB72D0 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
